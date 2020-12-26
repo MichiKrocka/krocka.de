@@ -1,0 +1,56 @@
+html,
+body {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:1em;
+  overflow:hidden;
+  font-family:verdana, helvetica;
+  background-image:url("img/michi.jpg");
+  background-repeat:repeat;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+#id_Layout {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  height:100%;
+  width:100%;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:0;
+  padding:0;
+  border-collapse: collapse;
+  font-size:1.3em;
+}
+#id_Menu {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  min-width:10em;
+  height:100%;
+  width:1%;
+  vertical-align:top;
+  font-style:italic;
+}
+#id_Cont {
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  height:100%;
+  margin:0;
+  padding:3px;
+  overflow:hidden;
+  vertical-align:top;
+}
+.ui-menu li {
+  border:0 !important;
+}

@@ -1,0 +1,52 @@
+<script language="JavaScript" type="text/javascript">
+// #####################################################################
+jQuery(function($){
+  $('button,a.button')
+  .button()
+  .click(function(ev){
+    $("#id_Cont").html(
+      '<iframe src="'+$(this).data("href")+'" style="border:0;width:100%;height:100%"></iframe>'
+    );
+    return false;
+  });
+});
+// #####################################################################
+</script>
+Ja, ich habe was mit Turnen ...
+<h4>Links</h4>
+<ul>
+  <li>
+    <a href="http://krocka.goip.de/turnen">krocka.goip.de/turnen</a>
+    <br>
+    Zeiterfassung der Turnabteilung (TSV Weilheim)
+  </li>
+  <li>
+    <a href="http://www.hub-sport.de">www.hub-sport.de</a>
+    <br>
+    Internetseite für Turnsachen
+  </li>
+  <li>
+    <a href="http://krocka.goip.de/meister">krocka.goip.de/meister</a>
+    <br>
+    Verwaltung von Wettkämpfen
+  </li>
+  <li>
+    <a href="http://krocka.goip.de/meister/registration.htm">krocka.goip.de/meister/registration.htm</a>
+    <br>
+    Wettkampfanmeldung
+  </li>
+  <li>
+    <a href="http://krocka.goip.de/meister/winner.htm">krocka.goip.de/meister/winner.htm</a>
+    <br>
+    Siegerlisten
+  </li>
+</ul>
+<h4>Training</h4>
+<ul>
+  <li>
+    <button data-href="http://krocka.goip.de/turnen/anwesenheit.htm" style="width:10em">Anwesenheit</button>
+  </li>
+  <li>
+    <button data-href="http://krocka.goip.de/turnen/kraft.htm" style="width:10em">Kraft</button>
+  </li>
+</ul>
